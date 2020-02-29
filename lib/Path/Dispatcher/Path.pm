@@ -34,6 +34,7 @@ sub clone_path {
     my $self = shift;
     my $path = shift;
 
+    # Note this forces an upgrade to Moose!
     return $self->meta->clone_object($self, path => $path, @_);
 }
 

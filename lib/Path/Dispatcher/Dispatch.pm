@@ -29,8 +29,8 @@ sub has_match   { scalar @{ shift->{_matches} } }
 sub first_match { shift->{_matches}[0] }
 
 # aliases
-__PACKAGE__->meta->add_method(add_matches => __PACKAGE__->can('add_match'));
-__PACKAGE__->meta->add_method(has_matches => __PACKAGE__->can('has_match'));
+sub add_matches { goto \&add_match }
+sub has_matches { goto \&has_match }
 
 sub run {
     my $self = shift;
