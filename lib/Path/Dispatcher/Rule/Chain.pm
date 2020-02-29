@@ -1,6 +1,6 @@
 package Path::Dispatcher::Rule::Chain;
 
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 
 use Moo;
 extends 'Path::Dispatcher::Rule::Always';

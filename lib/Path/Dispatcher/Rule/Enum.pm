@@ -1,7 +1,7 @@
 package Path::Dispatcher::Rule::Enum;
 # ABSTRACT: one of a list of strings must match
 
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 
 use Moo;
 use Types::Standard qw(Str ArrayRef Bool);

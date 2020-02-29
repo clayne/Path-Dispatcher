@@ -1,7 +1,7 @@
 package Path::Dispatcher::Path;
 # ABSTRACT: path and some optional metadata
 
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 
 use Moo;
 

@@ -1,7 +1,7 @@
 package Path::Dispatcher::Match;
 # ABSTRACT: the result of a successful rule match
 
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 
 use Moo;
 

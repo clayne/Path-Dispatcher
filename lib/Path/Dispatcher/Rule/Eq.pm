@@ -1,7 +1,7 @@
 package Path::Dispatcher::Rule::Eq;
 # ABSTRACT: predicate is a string equality
 
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 
 use Moo;
 use Types::Standard qw(Str Bool);

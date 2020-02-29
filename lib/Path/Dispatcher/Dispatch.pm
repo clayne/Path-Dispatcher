@@ -1,7 +1,7 @@
 package Path::Dispatcher::Dispatch;
 # ABSTRACT: a list of matches
 
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 
 use Moo;
 use Try::Tiny;

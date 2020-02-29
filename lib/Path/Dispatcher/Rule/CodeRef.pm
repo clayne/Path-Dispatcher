@@ -1,7 +1,7 @@
 package Path::Dispatcher::Rule::CodeRef;
 # ABSTRACT: predicate is any subroutine
 
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 
 use Moo;
 
