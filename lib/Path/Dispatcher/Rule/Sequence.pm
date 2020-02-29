@@ -1,6 +1,6 @@
 package Path::Dispatcher::Rule::Sequence;
 use Moo;
-use Types::Standard qw( Str Int ArrayRef HashRef Bool RegexpRef);
+use Types::Standard qw(Str);
 
 extends 'Path::Dispatcher::Rule';
 with 'Path::Dispatcher::Role::Rules';

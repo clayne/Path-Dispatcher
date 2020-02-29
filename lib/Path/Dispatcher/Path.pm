@@ -1,7 +1,7 @@
 package Path::Dispatcher::Path;
 use Moo;
 
-use Types::Standard qw( Str Int ArrayRef HashRef );
+use Types::Standard qw(Str HashRef);
 use overload q{""} => sub { shift->path };
 
 has path => (

@@ -1,7 +1,7 @@
 package Path::Dispatcher::Role::Rules;
 use Moo::Role;
 use Carp qw(confess);
-use Types::Standard qw( Str Int ArrayRef HashRef );
+use Types::Standard qw(ArrayRef);
 
 has _rules => (
     is       => 'ro',

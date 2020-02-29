@@ -1,7 +1,7 @@
 package Path::Dispatcher::Rule::Metadata;
 use Moo;
 use Type::Utils qw(class_type);
-use Types::Standard qw( Str Int ArrayRef HashRef Bool);
+use Types::Standard qw(Str);
 extends 'Path::Dispatcher::Rule';
 
 has field => (

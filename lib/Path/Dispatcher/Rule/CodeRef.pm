@@ -1,7 +1,7 @@
 package Path::Dispatcher::Rule::CodeRef;
 use Moo;
 
-use Types::Standard qw( Str Int ArrayRef HashRef CodeRef);
+use Types::Standard qw(CodeRef);
 extends 'Path::Dispatcher::Rule';
 
 has matcher => (

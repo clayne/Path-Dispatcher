@@ -2,7 +2,7 @@ package Path::Dispatcher::Match;
 use Moo;
 
 use Type::Utils qw(class_type);
-use Types::Standard qw( Str Int ArrayRef HashRef Undef);
+use Types::Standard qw(Str ArrayRef HashRef Undef);
 use Path::Dispatcher::Path;
 use Path::Dispatcher::Rule;
 

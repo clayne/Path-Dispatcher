@@ -1,6 +1,6 @@
 package Path::Dispatcher::Rule::Enum;
 use Moo;
-use Types::Standard qw( Str Int ArrayRef HashRef Bool);
+use Types::Standard qw(Str ArrayRef Bool);
 
 extends 'Path::Dispatcher::Rule';
 

@@ -1,6 +1,6 @@
 package Path::Dispatcher::Rule::Tokens;
 use Moo;
-use Types::Standard qw( Str Int ArrayRef HashRef Bool RegexpRef);
+use Types::Standard qw(Str ArrayRef Bool);
 
 extends 'Path::Dispatcher::Rule';
 

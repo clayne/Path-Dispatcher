@@ -1,6 +1,6 @@
 package Path::Dispatcher::Rule::Regex;
 use Moo;
-use Types::Standard qw( Str Int ArrayRef HashRef Bool RegexpRef);
+use Types::Standard qw(RegexpRef);
 
 extends 'Path::Dispatcher::Rule';
 

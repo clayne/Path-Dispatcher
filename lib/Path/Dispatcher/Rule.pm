@@ -1,7 +1,7 @@
 package Path::Dispatcher::Rule;
 use Moo;
 
-use Types::Standard qw( Str Int ArrayRef HashRef Bool);
+use Types::Standard qw(Bool);
 use Path::Dispatcher::Match;
 
 use constant match_class => "Path::Dispatcher::Match";

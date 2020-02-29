@@ -1,6 +1,6 @@
 package Path::Dispatcher::Rule::Eq;
 use Moo;
-use Types::Standard qw( Str Int ArrayRef HashRef Bool);
+use Types::Standard qw(Str Bool);
 
 extends 'Path::Dispatcher::Rule';
 

@@ -1,7 +1,6 @@
 package Path::Dispatcher::Rule::Dispatch;
 use Moo;
 use Type::Utils qw(class_type);
-use Types::Standard qw( Str Int ArrayRef HashRef );
 
 extends 'Path::Dispatcher::Rule';
 
