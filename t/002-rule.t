@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Test::More;
-use Path::Dispatcher::Rule;
+use Path::Dispatcher;
 
 my @calls;
 
