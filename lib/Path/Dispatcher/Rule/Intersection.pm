@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Intersection;
+# ABSTRACT: all rules must match
+
 use Moo;
 extends 'Path::Dispatcher::Rule';
 
@@ -25,9 +27,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Intersection - all rules must match
+=pod
 
 =head1 SYNOPSIS
 

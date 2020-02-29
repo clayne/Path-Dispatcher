@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Eq;
+# ABSTRACT: predicate is a string equality
+
 use Moo;
 use Types::Standard qw(Str Bool);
 
@@ -75,9 +77,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Eq - predicate is a string equality
+=pod
 
 =head1 SYNOPSIS
 

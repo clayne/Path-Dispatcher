@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Metadata;
+# ABSTRACT: match path's metadata
+
 use Moo;
 use Type::Utils qw(class_type);
 use Types::Standard qw(Str);
@@ -37,9 +39,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Metadata - match path's metadata
+=pod
 
 =head1 SYNOPSIS
 

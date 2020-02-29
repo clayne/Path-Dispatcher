@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Regex;
+# ABSTRACT: predicate is a regular expression
+
 use Moo;
 use Types::Standard qw(RegexpRef);
 
@@ -47,9 +49,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Regex - predicate is a regular expression
+=pod
 
 =head1 SYNOPSIS
 

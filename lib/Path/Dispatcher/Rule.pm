@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule;
+# ABSTRACT: predicate and codeblock
+
 use Moo;
 
 use Types::Standard qw(Bool);
@@ -104,9 +106,7 @@ require Path::Dispatcher::Rule::Under;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule - predicate and codeblock
+=pod
 
 =head1 SYNOPSIS
 

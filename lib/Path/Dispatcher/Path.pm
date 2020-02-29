@@ -1,4 +1,6 @@
 package Path::Dispatcher::Path;
+# ABSTRACT: path and some optional metadata
+
 use Moo;
 
 use Types::Standard qw(Str HashRef);
@@ -49,9 +51,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Path - path and some optional metadata
+=pod
 
 =head1 SYNOPSIS
 

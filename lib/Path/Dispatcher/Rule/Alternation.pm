@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Alternation;
+# ABSTRACT: any rule must match
+
 use Moo;
 extends 'Path::Dispatcher::Rule';
 
@@ -31,9 +33,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Alternation - any rule must match
+=pod
 
 =head1 SYNOPSIS
 

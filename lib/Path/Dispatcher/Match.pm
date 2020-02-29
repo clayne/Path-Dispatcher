@@ -1,4 +1,6 @@
 package Path::Dispatcher::Match;
+# ABSTRACT: the result of a successful rule match
+
 use Moo;
 
 use Type::Utils qw(class_type);
@@ -73,9 +75,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Match - the result of a successful rule match
+=pod
 
 =head1 SYNOPSIS
 

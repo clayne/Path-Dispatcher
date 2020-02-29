@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Under;
+# ABSTRACT: rules under a predicate
+
 use Moo;
 use Type::Tiny;
 use Type::Utils qw(class_type);
@@ -80,9 +82,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Under - rules under a predicate
+=pod
 
 =head1 SYNOPSIS
 

@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Empty;
+# ABSTRACT: matches only the empty path
+
 use Moo;
 extends 'Path::Dispatcher::Rule';
 
@@ -16,9 +18,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Empty - matches only the empty path
+=pod
 
 =head1 DESCRIPTION
 

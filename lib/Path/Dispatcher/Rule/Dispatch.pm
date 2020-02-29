@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Dispatch;
+# ABSTRACT: redispatch
+
 use Moo;
 use Type::Utils qw(class_type);
 
@@ -26,9 +28,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Dispatch - redispatch
+=pod
 
 =head1 SYNOPSIS
 

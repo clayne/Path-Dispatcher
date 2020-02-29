@@ -1,4 +1,6 @@
 package Path::Dispatcher::Role::Rules;
+# ABSTRACT: "has a list of rules"
+
 use Moo::Role;
 use Carp qw(confess);
 use Types::Standard qw(ArrayRef);
@@ -38,9 +40,7 @@ no Moo::Role;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Role::Rules - "has a list of rules"
+=pod
 
 =head1 DESCRIPTION
 

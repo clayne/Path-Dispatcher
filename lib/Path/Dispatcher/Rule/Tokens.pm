@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Tokens;
+# ABSTRACT: predicate is a list of tokens
+
 use Moo;
 use Types::Standard qw(Str ArrayRef Bool);
 
@@ -146,9 +148,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Tokens - predicate is a list of tokens
+=pod
 
 =head1 SYNOPSIS
 

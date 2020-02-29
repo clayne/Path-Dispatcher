@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::CodeRef;
+# ABSTRACT: predicate is any subroutine
+
 use Moo;
 
 use Types::Standard qw(CodeRef);
@@ -25,9 +27,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::CodeRef - predicate is any subroutine
+=pod
 
 =head1 SYNOPSIS
 

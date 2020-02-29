@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Sequence;
+# ABSTRACT: a sequence of rules
+
 use Moo;
 use Types::Standard qw(Str);
 
@@ -86,9 +88,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Sequence - a sequence of rules
+=pod
 
 =head1 SYNOPSIS
 

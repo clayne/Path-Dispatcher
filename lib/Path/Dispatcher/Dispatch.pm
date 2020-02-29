@@ -1,4 +1,6 @@
 package Path::Dispatcher::Dispatch;
+# ABSTRACT: a list of matches
+
 use Moo;
 use Try::Tiny;
 use Carp qw(confess);
@@ -70,9 +72,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Dispatch - a list of matches
+=pod
 
 =head1 SYNOPSIS
 
@@ -115,4 +115,3 @@ context. The return value of this method is a list of these scalars (or the
 first if called in scalar context).
 
 =cut
-

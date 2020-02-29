@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Always;
+# ABSTRACT: always matches
+
 use Moo;
 extends 'Path::Dispatcher::Rule';
 
@@ -18,9 +20,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Always - always matches
+=pod
 
 =head1 DESCRIPTION
 

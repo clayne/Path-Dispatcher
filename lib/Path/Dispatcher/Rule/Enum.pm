@@ -1,4 +1,6 @@
 package Path::Dispatcher::Rule::Enum;
+# ABSTRACT: one of a list of strings must match
+
 use Moo;
 use Types::Standard qw(Str ArrayRef Bool);
 
@@ -94,9 +96,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher::Rule::Enum - one of a list of strings must match
+=pod
 
 =head1 SYNOPSIS
 

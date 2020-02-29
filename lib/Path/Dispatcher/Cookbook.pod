@@ -1,3 +1,5 @@
+# PODNAME: Path::Dispatcher::Cookbook
+
 =pod
 
 =head1 NAME

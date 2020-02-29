@@ -1,4 +1,6 @@
 package Path::Dispatcher;
+# ABSTRACT: flexible and extensible dispatch
+
 use Moo;
 use 5.008001;
 
@@ -78,9 +80,7 @@ no Moo;
 
 __END__
 
-=head1 NAME
-
-Path::Dispatcher - flexible and extensible dispatch
+=pod
 
 =head1 SYNOPSIS
 
@@ -194,10 +194,6 @@ intended for tab completion. You can use it with L<Term::ReadLine> like so:
 This API is experimental and subject to change. In particular I think I want to
 return an object that resembles L<Path::Dispatcher::Dispatch>.
 
-=head1 AUTHOR
-
-Shawn M Moore, C<< <sartak at bestpractical.com> >>
-
 =head1 SEE ALSO
 
 =over 4
@@ -222,12 +218,4 @@ Shawn M Moore, C<< <sartak at bestpractical.com> >>
 
 =back
 
-=head1 COPYRIGHT & LICENSE
-
-Copyright 2008-2011 Best Practical Solutions.
-
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
-
 =cut
-
