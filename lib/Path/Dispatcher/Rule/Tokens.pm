@@ -7,7 +7,6 @@ extends 'Path::Dispatcher::Rule';
 has tokens => (
     is         => 'ro',
     isa        => ArrayRef,
-    auto_deref => 1,
     required   => 1,
 );
 
