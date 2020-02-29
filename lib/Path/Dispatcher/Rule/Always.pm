@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule::Always;
 # ABSTRACT: always matches
 
+our $VERSION = '1.07';
+
 use Moo;
 extends 'Path::Dispatcher::Rule';
 

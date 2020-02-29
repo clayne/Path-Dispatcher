@@ -1,6 +1,8 @@
 package Path::Dispatcher::Path;
 # ABSTRACT: path and some optional metadata
 
+our $VERSION = '1.07';
+
 use Moo;
 
 use Types::Standard qw(Str HashRef);

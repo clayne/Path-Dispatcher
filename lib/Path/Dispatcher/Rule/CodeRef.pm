@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule::CodeRef;
 # ABSTRACT: predicate is any subroutine
 
+our $VERSION = '1.07';
+
 use Moo;
 
 use Types::Standard qw(CodeRef);

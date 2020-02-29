@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule::Dispatch;
 # ABSTRACT: redispatch
 
+our $VERSION = '1.07';
+
 use Moo;
 use Type::Utils qw(class_type);
 

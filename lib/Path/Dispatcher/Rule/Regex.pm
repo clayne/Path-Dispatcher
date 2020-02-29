@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule::Regex;
 # ABSTRACT: predicate is a regular expression
 
+our $VERSION = '1.07';
+
 use Moo;
 use Types::Standard qw(RegexpRef);
 

@@ -1,6 +1,8 @@
 package Path::Dispatcher;
 # ABSTRACT: flexible and extensible dispatch
 
+our $VERSION = '1.07';
+
 use Moo;
 use 5.008001;
 

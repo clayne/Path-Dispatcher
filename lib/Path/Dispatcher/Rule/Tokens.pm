@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule::Tokens;
 # ABSTRACT: predicate is a list of tokens
 
+our $VERSION = '1.07';
+
 use Moo;
 use Types::Standard qw(Str ArrayRef Bool);
 

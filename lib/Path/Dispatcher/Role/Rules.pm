@@ -1,6 +1,8 @@
 package Path::Dispatcher::Role::Rules;
 # ABSTRACT: "has a list of rules"
 
+our $VERSION = '1.07';
+
 use Moo::Role;
 use Carp qw(confess);
 use Types::Standard qw(ArrayRef);

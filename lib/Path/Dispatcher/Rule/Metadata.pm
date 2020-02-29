@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule::Metadata;
 # ABSTRACT: match path's metadata
 
+our $VERSION = '1.07';
+
 use Moo;
 use Type::Utils qw(class_type);
 use Types::Standard qw(Str);

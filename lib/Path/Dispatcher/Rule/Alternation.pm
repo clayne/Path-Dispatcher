@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule::Alternation;
 # ABSTRACT: any rule must match
 
+our $VERSION = '1.07';
+
 use Moo;
 extends 'Path::Dispatcher::Rule';
 

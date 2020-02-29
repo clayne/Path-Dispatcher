@@ -1,6 +1,8 @@
 package Path::Dispatcher::Dispatch;
 # ABSTRACT: a list of matches
 
+our $VERSION = '1.07';
+
 use Moo;
 use Try::Tiny;
 use Carp qw(confess);

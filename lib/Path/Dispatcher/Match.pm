@@ -1,6 +1,8 @@
 package Path::Dispatcher::Match;
 # ABSTRACT: the result of a successful rule match
 
+our $VERSION = '1.07';
+
 use Moo;
 
 use Type::Utils qw(class_type);

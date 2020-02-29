@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule::Sequence;
 # ABSTRACT: a sequence of rules
 
+our $VERSION = '1.07';
+
 use Moo;
 use Types::Standard qw(Str);
 

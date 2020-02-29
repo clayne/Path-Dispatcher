@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule;
 # ABSTRACT: predicate and codeblock
 
+our $VERSION = '1.07';
+
 use Moo;
 
 use Types::Standard qw(Bool);

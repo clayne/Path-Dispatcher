@@ -1,6 +1,8 @@
 package Path::Dispatcher::Rule::Under;
 # ABSTRACT: rules under a predicate
 
+our $VERSION = '1.07';
+
 use Moo;
 use Type::Tiny;
 use Type::Utils qw(class_type);
