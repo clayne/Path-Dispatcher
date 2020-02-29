@@ -1,6 +1,6 @@
 Revision history for Path-Dispatcher
 
-{{$NEXT}}
+1.07      2020-02-29 20:55:07Z
         - Switch from Any::Moose to Moo and Types::Standard
         based on PRs from chresomanci and hashbangperl
 
