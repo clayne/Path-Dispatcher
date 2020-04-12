@@ -1,5 +1,5 @@
 package Path::Dispatcher;
-# ABSTRACT: flexible and extensible dispatch
+# ABSTRACT: Flexible and extensible dispatch
 
 our $VERSION = '1.08';
 
