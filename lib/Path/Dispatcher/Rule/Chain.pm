@@ -1,4 +1,5 @@
 package Path::Dispatcher::Rule::Chain;
+# ABSTRACT: Chain rules for Path::Dispatcher
 
 our $VERSION = '1.08';
 
