@@ -4,6 +4,7 @@ package Path::Dispatcher::Dispatch;
 our $VERSION = '1.08';
 
 use Moo;
+use MooX::TypeTiny;
 use Try::Tiny;
 use Carp qw(confess);
 use Types::Standard qw(ArrayRef);

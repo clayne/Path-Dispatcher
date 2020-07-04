@@ -4,7 +4,7 @@ package Path::Dispatcher::Match;
 our $VERSION = '1.08';
 
 use Moo;
-
+use MooX::TypeTiny;
 use Type::Utils qw(class_type);
 use Types::Standard qw(Str ArrayRef HashRef Undef);
 use Path::Dispatcher::Path;

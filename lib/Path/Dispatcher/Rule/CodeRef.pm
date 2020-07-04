@@ -4,7 +4,7 @@ package Path::Dispatcher::Rule::CodeRef;
 our $VERSION = '1.08';
 
 use Moo;
-
+use MooX::TypeTiny;
 use Types::Standard qw(CodeRef);
 extends 'Path::Dispatcher::Rule';
 

@@ -4,7 +4,7 @@ package Path::Dispatcher::Path;
 our $VERSION = '1.08';
 
 use Moo;
-
+use MooX::TypeTiny;
 use Types::Standard qw(Str HashRef);
 use overload q{""} => sub { shift->path };
 

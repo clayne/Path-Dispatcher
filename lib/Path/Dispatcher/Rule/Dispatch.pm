@@ -4,6 +4,7 @@ package Path::Dispatcher::Rule::Dispatch;
 our $VERSION = '1.08';
 
 use Moo;
+use MooX::TypeTiny;
 use Type::Utils qw(class_type);
 
 extends 'Path::Dispatcher::Rule';

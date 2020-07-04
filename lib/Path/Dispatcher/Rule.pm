@@ -4,7 +4,7 @@ package Path::Dispatcher::Rule;
 our $VERSION = '1.08';
 
 use Moo;
-
+use MooX::TypeTiny;
 use Types::Standard qw(Bool);
 use Path::Dispatcher::Match;
 

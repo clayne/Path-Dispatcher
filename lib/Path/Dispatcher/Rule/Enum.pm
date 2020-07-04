@@ -4,6 +4,7 @@ package Path::Dispatcher::Rule::Enum;
 our $VERSION = '1.08';
 
 use Moo;
+use MooX::TypeTiny;
 use Types::Standard qw(Str ArrayRef Bool);
 
 extends 'Path::Dispatcher::Rule';

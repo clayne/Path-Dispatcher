@@ -4,6 +4,7 @@ package Path::Dispatcher::Rule::Under;
 our $VERSION = '1.08';
 
 use Moo;
+use MooX::TypeTiny;
 use Type::Tiny;
 use Type::Utils qw(class_type);
 
