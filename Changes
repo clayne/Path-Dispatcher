@@ -1,6 +1,6 @@
 Revision history for Path-Dispatcher
 
-{{$NEXT}}
+1.08      2020-07-12 02:40:52Z
         - add abstracts to modules that were missing them (RT#132909)
         - add MooX::TypeTiny for optimized type checks
 
