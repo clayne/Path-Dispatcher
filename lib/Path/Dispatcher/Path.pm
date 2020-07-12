@@ -1,7 +1,7 @@
 package Path::Dispatcher::Path;
 # ABSTRACT: path and some optional metadata
 
-our $VERSION = '1.08';
+our $VERSION = '1.09';
 
 use Moo;
 use MooX::TypeTiny;

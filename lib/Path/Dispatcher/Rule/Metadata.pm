@@ -1,7 +1,7 @@
 package Path::Dispatcher::Rule::Metadata;
 # ABSTRACT: match path's metadata
 
-our $VERSION = '1.08';
+our $VERSION = '1.09';
 
 use Moo;
 use MooX::TypeTiny;

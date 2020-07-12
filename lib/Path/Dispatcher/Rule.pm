@@ -1,7 +1,7 @@
 package Path::Dispatcher::Rule;
 # ABSTRACT: predicate and codeblock
 
-our $VERSION = '1.08';
+our $VERSION = '1.09';
 
 use Moo;
 use MooX::TypeTiny;
